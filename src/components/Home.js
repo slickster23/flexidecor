@@ -6,7 +6,8 @@ import { Carousel } from 'react-responsive-carousel';
 function Home() {
   return (
     <div id = "home">
-        <Carousel className = "carousel" swipeable = {true} showStatus = {false} centerMode= {true} interval={1000} showThumbs = {false} centerSlidePercentage={50}infiniteLoop={true} width="100%" showArrows={true}>
+    
+        <Carousel className = "carousel" swipeable = {true} showStatus = {false} centerMode= {true} interval={1000} showThumbs = {false} axis ="vertical" centerSlidePercentage={50}infiniteLoop={true} width="100%" height="100%" showArrows={true}>
             <div className="image">
                 <img src="/img/Image2.jpg" alt="" />
             </div>
@@ -31,13 +32,7 @@ function Home() {
                 <img src="/img/Image7.jpg" alt="" />
             </div>
 
-            <div className="image">
-                <img src="/img/Image2.jpg" alt="" />
-            </div>
-
-            <div className="image">
-                <img src="/img/Image2.jpg" alt="" />
-            </div>
+           
         </Carousel>
     </div>
   )
