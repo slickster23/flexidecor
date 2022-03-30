@@ -33,7 +33,7 @@ function Products() {
 
                 <div className="product-detail">
                     <h2 className="product-name">{product.name}</h2>
-                    <a href="#" className="button">Enquire</a>
+                    <a href="#contact" className="button">Enquire</a>
                 </div>
                 </div>
             ))}
