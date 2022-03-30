@@ -1,5 +1,5 @@
 #contact h2 { 
-    color: brown;
+
     text-align: center;
 }
 
@@ -25,6 +25,7 @@
     display:flex;
     justify-content: space-between;
     align-items: center;
+    background: brown;
 }
 
 
@@ -40,7 +41,10 @@
 }
 
 
-.contact-container .box h3 { color: brown;}
+.contact-container .box h3 { 
+    color: rgb(255, 255, 255);
+    font-weight: 800;;
+}
 
 .contact-container .box  i { 
     color: brown;
@@ -50,6 +54,15 @@
     height: 100px;
     border-radius: 60%;
     object-fit: contain;
+}
+
+.map-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    margin-top: 1rem;;
+    margin-bottom: 1rem;;
 }
 
 @media screen and (max-width: 960px) {

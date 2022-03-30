@@ -12,7 +12,7 @@ function About() {
             </div>
 
             <div className="text">
-              <p>Flexi decor is a mosotho owned company that sells high quality furniture imported from various countries like South Africa using reliable and prestige material. The shop is located in lesotho, maseru at maseru mall.
+              <p>Flexi decor is a mosotho owned company that sells high quality furniture imported from various countries like South Africa using reliable and prestige material. The shop is located in Lesotho, Maseru at Maseru Mall.
 The establishment also offers home decor by interior designers for new homes that require furnishing and or homes that need to be refurbished</p>
               </div>
           </div>

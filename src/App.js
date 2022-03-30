@@ -7,6 +7,8 @@ import Home from './components/Home'
 import About from './components/About'
 import Gallery from './components/Gallery'
 import Contact from './components/Contact'
+import Products from './components/Products'
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -16,8 +18,10 @@ function App() {
       <Navbar/>
       <Home/>
       <About/>
+      <Products/>
       <Gallery/>
       <Contact/>
+      <Footer/>
    
 
     

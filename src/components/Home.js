@@ -7,7 +7,7 @@ function Home() {
   return (
     <div id = "home">
     
-        <Carousel className = "carousel" swipeable = {true} showStatus = {false} centerMode= {true} interval={1000} showThumbs = {false} axis ="vertical" centerSlidePercentage={50}infiniteLoop={true} width="100%" height="100%" showArrows={true}>
+        <Carousel className = "carousel" autoPlay = {true} swipeable = {true} showStatus = {false} centerMode= {true} interval={1000} showThumbs = {false} axis ="horizontal" centerSlidePercentage={100}infiniteLoop={true} width="100%" height="100%" showArrows={true}>
             <div className="image">
                 <img src="/img/Image2.jpg" alt="" />
             </div>
